@@ -113,7 +113,10 @@
       <p>₹399</p>
     </div>
   </section>
-
+    <div class="buttons">
+  <button class="buy-now">Buy Now</button>
+  <button class="add-cart">Add to Cart</button>
+</div>
   <footer>
     Contact: adityagohain64@gmail.com
   </footer>
