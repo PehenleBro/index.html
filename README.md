@@ -73,7 +73,7 @@
       <p>₹399</p>
     </div>
     <div class="product">
-      <img src="https://via.placeholder.com/250x250?text=Oversized+2" alt="T-shirt 2" />
+      <img src="https://drive.google.com/file/d/1R2V5pw9HXwrozi6RDe4jHYLV6qDHjCat/view?usp=drivesdkxr" alt="T-shirt 2" />
       <h2>Half Sleeve Printed T-shirt</h2>
       <p>₹449</p>
     </div>
