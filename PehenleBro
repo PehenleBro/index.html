@@ -11,20 +11,25 @@
       background-color: #0f0f0f;
       color: white;
     }
+
     header {
       background-color: #1a1a1a;
       padding: 20px;
       text-align: center;
     }
+
     header h1 {
       font-size: 2.5rem;
       color: #00ffcc;
       margin: 0;
     }
+
     header p {
       font-size: 1rem;
       color: #ccc;
+      margin: 0;
     }
+
     .products {
       display: flex;
       flex-wrap: wrap;
@@ -32,26 +37,67 @@
       padding: 30px 10px;
       gap: 20px;
     }
+
     .product {
       background-color: #1a1a1a;
       border-radius: 12px;
       padding: 15px;
       width: 250px;
-      text-align: center;
       box-shadow: 0 0 10px #00ffcc33;
+      text-align: center;
     }
+
     .product img {
       width: 100%;
       border-radius: 8px;
     }
+
     .product h2 {
       font-size: 1.2rem;
       margin: 10px 0 5px;
     }
+
     .product p {
-      margin: 0;
       color: #ccc;
+      margin: 0 0 10px;
     }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .buy-now, .add-cart {
+      padding: 10px 12px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .buy-now {
+      background-color: #00ffcc;
+      color: black;
+      text-decoration: none;
+    }
+
+    .buy-now:hover {
+      background-color: #00ccaa;
+    }
+
+    .add-cart {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .add-cart:hover {
+      background-color: #0056b3;
+    }
+
     footer {
       text-align: center;
       padding: 20px;
@@ -67,58 +113,114 @@
   </header>
 
   <section class="products">
+
+    <!-- Repeat this block for 9 T-shirts with diff placeholders -->
+    <!-- Replace with real images later -->
+
+    <!-- Product 1 -->
     <div class="product">
       <img src="https://via.placeholder.com/250x250?text=Oversized+1" alt="T-shirt 1" />
       <h2>Half Sleeve Printed T-shirt</h2>
       <p>₹399</p>
+      <div class="buttons">
+        <a class="buy-now" href="https://wa.me/918888888888?text=Hi!+I+want+to+buy+Oversized+T-shirt+1" target="_blank">Buy Now</a>
+        <button class="add-cart">Add to Cart</button>
+      </div>
     </div>
+
+    <!-- Product 2 -->
     <div class="product">
       <img src="https://via.placeholder.com/250x250?text=Oversized+2" alt="T-shirt 2" />
       <h2>Half Sleeve Printed T-shirt</h2>
       <p>₹449</p>
+      <div class="buttons">
+        <a class="buy-now" href="https://wa.me/918888888888?text=Hi!+I+want+to+buy+Oversized+T-shirt+2" target="_blank">Buy Now</a>
+        <button class="add-cart">Add to Cart</button>
+      </div>
     </div>
+
+    <!-- Product 3 -->
     <div class="product">
       <img src="https://via.placeholder.com/250x250?text=Oversized+3" alt="T-shirt 3" />
       <h2>Half Sleeve Printed T-shirt</h2>
       <p>₹499</p>
+      <div class="buttons">
+        <a class="buy-now" href="https://wa.me/918888888888?text=Hi!+I+want+to+buy+Oversized+T-shirt+3" target="_blank">Buy Now</a>
+        <button class="add-cart">Add to Cart</button>
+      </div>
     </div>
+
+    <!-- Product 4 -->
     <div class="product">
       <img src="https://via.placeholder.com/250x250?text=Oversized+4" alt="T-shirt 4" />
       <h2>Half Sleeve Printed T-shirt</h2>
-      <p>₹399</p>
+      <p>₹359</p>
+      <div class="buttons">
+        <a class="buy-now" href="https://wa.me/918888888888?text=Hi!+I+want+to+buy+Oversized+T-shirt+4" target="_blank">Buy Now</a>
+        <button class="add-cart">Add to Cart</button>
+      </div>
     </div>
+
+    <!-- Product 5 -->
     <div class="product">
       <img src="https://via.placeholder.com/250x250?text=Oversized+5" alt="T-shirt 5" />
       <h2>Half Sleeve Printed T-shirt</h2>
-      <p>₹459</p>
+      <p>₹399</p>
+      <div class="buttons">
+        <a class="buy-now" href="https://wa.me/918888888888?text=Hi!+I+want+to+buy+Oversized+T-shirt+5" target="_blank">Buy Now</a>
+        <button class="add-cart">Add to Cart</button>
+      </div>
     </div>
+
+    <!-- Product 6 -->
     <div class="product">
       <img src="https://via.placeholder.com/250x250?text=Oversized+6" alt="T-shirt 6" />
       <h2>Half Sleeve Printed T-shirt</h2>
-      <p>₹350</p>
+      <p>₹479</p>
+      <div class="buttons">
+        <a class="buy-now" href="https://wa.me/918888888888?text=Hi!+I+want+to+buy+Oversized+T-shirt+6" target="_blank">Buy Now</a>
+        <button class="add-cart">Add to Cart</button>
+      </div>
     </div>
+
+    <!-- Product 7 -->
     <div class="product">
       <img src="https://via.placeholder.com/250x250?text=Oversized+7" alt="T-shirt 7" />
       <h2>Half Sleeve Printed T-shirt</h2>
-      <p>₹420</p>
+      <p>₹489</p>
+      <div class="buttons">
+        <a class="buy-now" href="https://wa.me/918888888888?text=Hi!+I+want+to+buy+Oversized+T-shirt+7" target="_blank">Buy Now</a>
+        <button class="add-cart">Add to Cart</button>
+      </div>
     </div>
+
+    <!-- Product 8 -->
     <div class="product">
       <img src="https://via.placeholder.com/250x250?text=Oversized+8" alt="T-shirt 8" />
       <h2>Half Sleeve Printed T-shirt</h2>
-      <p>₹480</p>
+      <p>₹369</p>
+      <div class="buttons">
+        <a class="buy-now" href="https://wa.me/918888888888?text=Hi!+I+want+to+buy+Oversized+T-shirt+8" target="_blank">Buy Now</a>
+        <button class="add-cart">Add to Cart</button>
+      </div>
     </div>
+
+    <!-- Product 9 -->
     <div class="product">
       <img src="https://via.placeholder.com/250x250?text=Oversized+9" alt="T-shirt 9" />
       <h2>Half Sleeve Printed T-shirt</h2>
-      <p>₹399</p>
+      <p>₹389</p>
+      <div class="buttons">
+        <a class="buy-now" href="https://wa.me/918888888888?text=Hi!+I+want+to+buy+Oversized+T-shirt+9" target="_blank">Buy Now</a>
+        <button class="add-cart">Add to Cart</button>
+      </div>
     </div>
+
   </section>
-    <div class="buttons">
-  <button class="buy-now">Buy Now</button>
-  <button class="add-cart">Add to Cart</button>
-</div>
+
   <footer>
-    Contact: adityagohain64@gmail.com
+    Contact: adityagohain64@gmail.com <br/>
+    © 2025 PehenloBro. All rights reserved.
   </footer>
 </body>
 </html>
