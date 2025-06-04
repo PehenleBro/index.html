@@ -111,6 +111,10 @@
       <img src="https://via.placeholder.com/250x250?text=Oversized+9" alt="T-shirt 9" />
       <h2>Half Sleeve Printed T-shirt</h2>
       <p>₹399</p>
+      <div class="buttons">
+  <button class="buy-now">Buy Now</button>
+  <button class="add-cart">Add to Cart</button>
+</div>
     </div>
   </section>
 
